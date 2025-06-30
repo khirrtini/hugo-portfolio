@@ -52,11 +52,9 @@
 #  pageRef = "tags"
 #  weight = 30
 
-
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
-
 
 # [[footer]]
 #   name = "Tags"
@@ -67,3 +65,40 @@
 #   name = "Categories"
 #   pageRef = "categories"
 #   weight = 20
+
+
+# -- -- --
+
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+
+[[main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 2
+
+[[main]]
+  name = "Projects"
+  pageRef = "/projects"
+  weight = 3
+
+[[main]]
+  name = "Socials"
+  pageRef = "/socials"
+  weight = 4
+
+# -- -- --
+
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  pre = "tag"
+  weight = 10
+
+  [[footer]]
+  name = "Resume"
+  url = "/resume.pdf"
+  pre = "link"
+  weight = 20
